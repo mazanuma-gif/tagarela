@@ -1,0 +1,17 @@
+O conteúdo do ficheiro `netlify.toml` é este:
+
+```toml
+[build]
+  functions = "netlify/functions"
+  publish = "."
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+```
+
+Cola isto e clica **"Commit changes"**! 🚀
