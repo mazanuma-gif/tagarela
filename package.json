@@ -1,11 +1,15 @@
-package.json
-netlify.toml
-manifest.json
-sw.js
-icon.svg
-netlify/functions/db.js
-netlify/functions/auth.js
-netlify/functions/messages.js
-netlify/functions/users.js
-netlify/functions/payments.js
-netlify/functions/ably-token.js
+{
+  "name": "tagarela",
+  "version": "1.0.0",
+  "description": "Chat em tempo real",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "ably": "^1.2.50",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0"
+  }
+}
