@@ -1,10 +1,7 @@
-
 {
-  "name": "my-app",
+  "name": "tagarela",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
-    "build": "npm run build:app"
-  },
-  "dependencies": {}
+    "build": "your-build-command"
+  }
 }
