@@ -1,8 +1,11 @@
-[build]
-  functions = "netlify/functions"
-  publish = "."
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
+{
+  "name": "tagarela",
+  "version": "1.0.0",
+  "dependencies": {
+    "@libsql/client": "^0.6.0",
+    "ably": "^1.2.50",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.0"
+  }
+}
